@@ -1,0 +1,50 @@
+.VuePagination  {
+  margin-top: 28px;
+
+  nav {
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+      }
+
+      .VuePagination__pagination-item-prev-chunk, 
+      .VuePagination__pagination-item-next-chunk {
+        display: none;
+      }
+
+      .VuePagination__pagination-item {
+        button {
+          font-family: Dosis;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 140%;
+          letter-spacing: 0.44px;
+          color: #2C332D;
+          background: none;
+          border: none;
+          margin-right: 15px;
+          cursor: pointer;
+
+          &[type="button"] {
+            font-weight: bold;
+          }
+        }
+
+        &.active {
+          button {
+            font-weight: bold;
+            color: $bg-green;
+          }
+        }
+      }
+
+
+    }
+    .VuePagination__count {
+      display: none;
+    }
+  }
+}

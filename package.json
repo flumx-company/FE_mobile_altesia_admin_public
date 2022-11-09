@@ -1,0 +1,57 @@
+{
+  "name": "altesia-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && cp .htaccess dist/.htaccess",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jobinsjp/vue3-datatable": "^1.0.12",
+    "@vuesual/vue-resolver": "file:../altesia-admin-resolver",
+    "axios": "^0.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "v-pagination-3": "^0.1.7",
+    "vee-validate": "^4.5.7",
+    "vue": "^3.0.0",
+    "vue-dropdowns": "^1.1.2",
+    "vue-router": "^4.0.12",
+    "vue3-star-ratings": "^1.0.7",
+    "vue3-table-component": "file:../vue3-custom-table-component",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-debugger": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

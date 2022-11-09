@@ -1,0 +1,7 @@
+.footer {
+  padding: 14px 79px;
+  background: $header-footer-bg;
+  @include headerFooterText;
+  position: fixed;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+@mixin allCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin centerBeteween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin centerStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@mixin centerTop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@mixin headerFooterText {
+  color: $white-text;
+  font-family: Dosis;
+  font-size: 16px;
+  letter-spacing: 0.44px;
+}

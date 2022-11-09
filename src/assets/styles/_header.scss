@@ -1,0 +1,24 @@
+
+.header {
+  background: $header-footer-bg;
+  padding: 5px 76px 5px 64px;
+  @include centerBeteween;
+  @include headerFooterText;
+
+  .exit-block {
+    @include allCenter();
+
+    .admin-name {
+      margin-right: 19px;
+      @include allCenter();
+
+      .avatar {
+        margin-right: 7px;
+      }
+    }
+    .exit {
+      cursor: pointer;
+    }
+  }
+  
+}

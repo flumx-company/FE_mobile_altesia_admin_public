@@ -1,0 +1,32 @@
+.dropdown-container {
+  display: flex;
+  align-items: flex-end;
+
+  
+  .my-dropdown-toggle {
+    margin: 0 26px 0 0;
+    height: auto;
+    display: block;
+  
+    .dropdown-toggle {
+      background-image: none;
+      border: 1px solid #D1D1D6;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: 344px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      width: 220px;
+      margin-bottom: 0;
+  
+      .caret {
+        top: 25px;
+      }
+    }
+  
+    .dropdown-menu {
+      width: 220px;
+    }
+  }
+}

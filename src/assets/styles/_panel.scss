@@ -1,0 +1,9 @@
+.pannel {
+  height: 100vh;
+
+  .main-body {
+    display: grid;
+    height: calc(100vh - 100px);
+    grid-template-columns: 300px calc(100% - 300px);
+  }
+}
